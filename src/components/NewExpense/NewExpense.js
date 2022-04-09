@@ -10,7 +10,7 @@ const NewExpense = (props) => {
       id: Math.random().toString(),
     };
     //Passar prop de child(ExpenseForm) to parent(NewExpense)
-    props.onAddExpense();
+    props.onAddExpense(expenseData);
   };
 
   return (
